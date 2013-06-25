@@ -1,0 +1,6 @@
+== Rspec Rails Lecture
+
+Master branch has no tests
+Testing branch has the tests we wrote in the lecture. Remember that we broke the unit tests, can you fix them? can you make the tests better?
+
+have fun!
