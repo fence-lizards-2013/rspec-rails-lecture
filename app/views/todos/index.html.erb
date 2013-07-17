@@ -1,0 +1,15 @@
+<h1>Todos</h1>
+
+<% if @todos and @todos.length %>
+<ul>
+<% @todos.each do |todo| %>
+<li><%= todo.title %></li>
+<% end %>
+</ul>
+<% end %>
+
+<%= form_for @todo do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.submit 'add todo' %>
+<% end %>

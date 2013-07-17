@@ -22,14 +22,16 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'factory_girl_rails', :require => false
+  gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry'
 end
 
 group :test do
-  gem 'shoulda', :require => false
+  gem 'shoulda'
   gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
 end
 gem 'jquery-rails'
 
